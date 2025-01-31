@@ -1,0 +1,38 @@
+--- Tapşırıq 1: “Klik”lə Rəngi Dəyiş ---
+    -- task1.html --
+    <body>-də ilk olaraq bg-red-400 sinifi var.
+    JavaScript-də klik zamanı sinifi bg-blue-400 → bg-red-400 arasında dəyişmək lazımdır.
+    
+    Resurslar: 
+        1. MDN: Element: classList
+        https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+
+        2. DOM elementinin siniflərini necə əlavə etmək, silmək və ya toggle etmək olar, bu səhifədə izah edilir.
+        MDN: click Event
+        https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+
+--- Tapşırıq 2: Klaviaturada Yazılan Mətni Canlı Göstər ---
+    -- task2.html -- 
+    <input> sahəsinə hər hansı mətn daxil etdikdə, həmin mətni #output-da canlı şəkildə göstərin.
+    
+    Resurslar: 
+        1. MDN: keyup Event
+        https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event
+
+        2.MDN: input Element
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text
+
+--- Tapşırıq 3: Siyahıya Dinamik Element Əlavə və Silmə ---
+    -- task3.html --
+    ”Element Əlavə Et” düyməsinə klikləyən kimi JavaScript-də yeni <li> yaradıb #itemList-ə əlavə edin. 
+    Hər <li>-yə kliklədikdə həmin li elementini silin.
+    
+    Resurslar: 
+        1. MDN: document.createElement()
+        https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+        2. MDN: Node.appendChild()
+        https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+
+        3. MDN: ChildNode.remove()
+        https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove
